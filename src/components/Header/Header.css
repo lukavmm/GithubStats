@@ -1,0 +1,65 @@
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(120deg, #252525, #444);
+}
+h1{
+    margin-bottom: 20px;
+}
+.container{
+    width: 50%;
+    height: 30%;
+
+    background: rgba(255,255,255, .2);
+    color: white;
+    
+    margin-bottom: 20px;
+    margin: auto;
+
+    border-radius: 7px;
+    align-items: center;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container input{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    padding: 6px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.GithubProfile{
+    margin: 24px;
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.GithubProfile button{
+    padding: 6px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #ff7b00be;
+    color:white;
+    transition: ease .3s;
+}
+.GithubProfile button:hover{
+    transform: scale(1.05);
+    transition: ease .3s;
+}
+.card img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+}
+
